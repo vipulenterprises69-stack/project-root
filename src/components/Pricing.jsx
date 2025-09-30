@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Check, Zap, Crown, Sparkles, Wrench } from 'lucide-react';
-import { Button } from './components/ui/button';
+import { Button } from '../../src/ui/button';
 
 const Pricing = () => {
   const pricingPlans = [

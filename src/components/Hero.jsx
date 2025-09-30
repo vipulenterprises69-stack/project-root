@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, CheckCircle, Star } from 'lucide-react';
-import { Button } from './components/ui/button';
+import { Button } from '../../src/ui/button';
 
 const Hero = () => {
   const handleOrderNow = () => {

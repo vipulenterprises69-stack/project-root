@@ -1,17 +1,17 @@
 import React, { useEffect } from 'react';
 // import { Helmet } from 'react-helmet'; // Removed due to resolution error, replaced with useEffect
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from '../components/Header.jsx';
-import Hero from '../components/Hero.jsx';
-import Projects from '../components/Projects.jsx';
-import Pricing from '../components/Pricing.jsx';
-import Contact from '../components/Contact.jsx';
-import Footer from '../components/Footer.jsx';
-import WhatsAppButton from '../components/WhatsAppButton.jsx';
-import { Toaster } from '../components/ui/toaster.jsx';
-import PrivacyPolicy from '../pages/PrivacyPolicy.jsx';
-import TermsAndConditions from '../pages/TermsAndConditions.jsx';
-import RefundPolicy from '../pages/RefundPolicy.jsx';
+import Header from './components/Header.jsx';
+import Hero from './components/Hero.jsx';
+import Projects from './components/Projects.jsx';
+import Pricing from './components/Pricing.jsx';
+import Contact from './components/Contact.jsx';
+import Footer from './components/Footer.jsx';
+import WhatsAppButton from './components/WhatsAppButton.jsx';
+import { Toaster } from './ui/toaster.jsx';
+import PrivacyPolicy from './pages/PrivacyPolicy.jsx';
+import TermsAndConditions from './pages/TermsAndConditions.jsx';
+import RefundPolicy from './pages/RefundPolicy.jsx';
 
 function App() {
 
@@ -56,4 +56,3 @@ function App() {
 }
 
 export default App;
-

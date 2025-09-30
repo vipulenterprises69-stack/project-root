@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ExternalLink, Code, Database, Brain, FileText, Users, MessageSquare } from 'lucide-react';
-import { Button } from './components/ui/button';
+import { Button } from '../ui/button.jsx';
 
 const Projects = () => {
   const projects = [
